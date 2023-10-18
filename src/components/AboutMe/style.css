@@ -1,0 +1,105 @@
+
+.about{
+
+
+
+
+padding-top: 100px;
+
+
+
+
+}
+
+
+
+.about .container .picture{
+   border-radius: 15px;
+}
+
+.about .container .avatar{
+   background-color: white;
+   border-radius: 50%;
+
+}
+
+.about .container .avatar-wrap{
+   background-color:#800020 ;
+   border-radius: 15px;
+   padding: 15px;
+}
+
+.about .container .avatar-wrap img{
+   width: 80px;
+}
+
+.about .container h3{
+   font-weight: 700;
+   font-size: 48px;
+}
+
+
+
+
+  .FrontEnd{
+   padding-top: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 50px;
+  }
+  
+
+  .BackEnd{
+   padding-top: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 50px;
+   
+  }
+
+  .VersionControl{
+   padding-top: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 50px;
+  }
+
+  .ContainerSkill{
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   margin-bottom: 50px;
+   
+  }
+
+  .about-info p{
+   text-align: justify;
+   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   padding: 15px;
+   border-radius: 10px;
+  }
+
+
+  .SoftSkills{
+   margin-top: 10px;
+   text-align: justify;
+   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   padding: 15px;
+   border-radius: 10px;
+   border: 1px solid #800020;
+  }
+
+ 
+
+
+  
+  
+
+ 
+
+
+

@@ -1,0 +1,124 @@
+.navbar{
+    background-color: transparent;
+   
+   margin: 5px;
+
+  
+
+ 
+    
+
+    
+   
+}
+
+
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 35px !important;
+    color: white !important;
+    text-transform: uppercase;
+}
+
+#telephoneNumber  {
+    border: 2px solid white;
+ border-radius: 35px;
+ color: white;
+}
+
+.navbar-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px ;
+
+    width: 50px;
+    height: 50px;
+}
+
+.nav-item .nav-link{
+    color: white ;
+    font-size: 20px;
+   
+}
+.nav-item .nav-link:hover{
+color: #800020;
+
+font-weight: 700;
+   
+}
+
+
+  
+/* Add a class for the sticky navigation */
+.sticky {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 100 ;
+    background-color: white; 
+    border-radius: 20px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+   
+  }
+
+  .sticky .nav-item .nav-link{
+    color: rgb(0, 0, 0) ;
+   font-weight: 700;
+
+}
+
+ .sticky .navbar-brand{
+    font-weight: 700;
+    font-size: 24px !important;
+    color: #800020 !important;
+    text-transform: uppercase;
+}
+
+.sticky .navbar-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px ;
+    border: #800020 2px solid ;
+
+    width: 50px;
+    height: 50px;
+}
+
+.sticky #telephoneNumber  {
+    border: 2px solid #800020;
+ border-radius: 35px;
+ color: #800020;
+}
+
+.sticky #telephoneNumber:hover  {
+    background-color: #800020;
+ border-radius: 35px;
+ color: white;
+ font-weight: 500;
+}
+
+.sticky .nav-item .nav-link:hover{
+    color: #800020 ;
+   font-weight: 700;
+  
+
+}
+
+
+/*  active section*/
+.navbar-nav .nav-item.active a {
+    color: #800020; /* Color del texto de la sección activa */
+    font-weight: bold; /* Texto en negrita para la sección activa */
+  }
+
+
+  .nav-item.active {
+    border-bottom: 3px solid #800020; /* Línea inferior para la sección activa */
+  }
