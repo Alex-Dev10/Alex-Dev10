@@ -1,66 +1,47 @@
 import React from "react";
-import './style.css'
-import avatar from '../../Recursos/images/avatar.png'
-import profile from '../../Recursos/images/profile.png'
-import download from '../../Recursos/images/download.png'
-import scrum from '../../Recursos/images/scrum.png'
+import "./style.css";
+import avatar from "../../Recursos/images/avatar.png";
+import profile from "../../Recursos/images/profile.png";
+import download from "../../Recursos/images/download.png";
+import scrum from "../../Recursos/images/scrum.png";
 import { NavComponent } from "../Navbar/NavComponent";
 
 export const Home = () => {
   return (
-    <div >
-  
-
-      <section className="Home" id="section_1"> 
-
-   
-
-        
-        <div className="container-fluid">
-          <div className="row">
+    
+    <section className="Home" id="section_1">
 
 
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-lg-6 col-12 InfoSection">
+            <h1>Hi THERE!</h1>
 
-            <div className="col-lg-6 col-12 InfoSection">
-              <div >
+            <h2 className="subtitle">
+              I’M <span className="name">ALEJANDRO.</span>{" "}
+            </h2>
+            <span className="carreer">Web Developer</span>
 
-                <div className="AvatarContainer d-flex align-items-center justify-content-center">
-                  <img
-                    src={avatar}
-                    className="avatar-image avatar-image-large img-fluid"
-                    alt="Avatar"
-                  />
-                 <img className=" scrum img-fluid" src={scrum} alt="" />
-                </div>
-
-                <h2 className="subtitle">I’m  <span >FULL STACK DEVELOPER.</span> </h2>
-                <p className="buttonStart mb-4">
-               
-                  <a href="" className="btn text-white Resume">  <span>Resume  </span> <img className="img-fluid" src={download} alt="" /> </a>
-                </p>
-              </div>
-            </div>
-
-
-
-
-            <div className="col-lg-6 col-12 ProfileSection img-fluid">
-            
-              <img src={profile} className="hero-image img-fluid" alt="Home_Picture" />
-            </div>
-
-            
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ab
+              aut ad praesentium voluptas facere laboriosam, atque, enim in sit
+              voluptatum rem porro, delectus officia nulla hic nemo eligendi
+              fuga?
+            </p>
+            <a href="">ABOUT ME</a>
           </div>
 
+        
 
-
-          
+          <div className="col-lg-6 col-12 ProfileSection ">
+            <img
+              src={profile}
+              className="hero-image img-fluid"
+              alt="Home_Picture"
+            />
+          </div>
         </div>
-
-
-
-      </section>
-
-    </div>
+      </div>
+    </section>
   );
 };

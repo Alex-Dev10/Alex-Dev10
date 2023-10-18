@@ -1,7 +1,8 @@
 .navbar{
-    background-color: transparent;
-   
-   margin: 5px;
+background-color: #CCCCCC;
+
+   position: absolute;
+  
 
    
 }
@@ -11,14 +12,14 @@
 .navbar-brand{
     font-weight: 700;
     font-size: 35px !important;
-    color: white !important;
+    color: black !important;
     text-transform: uppercase;
 }
 
 #telephoneNumber  {
-    border: 2px solid white;
+    border: 2px solid #800020;
  border-radius: 35px;
- color: white;
+ color: black;
 }
 
 .navbar-icon{
@@ -27,13 +28,14 @@
     align-items: center;
     background-color: white;
     border-radius: 50px ;
+    border: 2px solid #800020;
 
     width: 50px;
     height: 50px;
 }
 
 .nav-item .nav-link{
-    color: white ;
+    color: black ;
     font-size: 20px;
    
 }
